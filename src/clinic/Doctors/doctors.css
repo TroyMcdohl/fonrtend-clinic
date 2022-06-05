@@ -1,0 +1,48 @@
+.doctors_container {
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.doctors_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.doctors_card {
+  background-color: antiquewhite;
+  width: 450px;
+  height: 80vh;
+  margin: 30px;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 7px 28px 13px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 7px 28px 13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 7px 28px 13px rgba(0, 0, 0, 0.75);
+}
+
+.doctors_img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+}
+
+.doctors_name {
+  margin: 5px;
+  font-size: 25px;
+}
+
+.doctors_graduate {
+  font-size: 15px;
+  margin: 10px;
+}
+
+.doctors_biography {
+  width: 350px;
+  text-indent: 20px;
+  line-height: 23px;
+}

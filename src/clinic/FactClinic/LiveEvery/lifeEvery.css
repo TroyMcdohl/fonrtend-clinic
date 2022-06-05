@@ -1,0 +1,66 @@
+.lifeEvery_container {
+  display: flex;
+  background-color: antiquewhite;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lifeEvery_main_title {
+  font-size: 30px;
+}
+
+.lifeEvery_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lifeEvery_card {
+  box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.75);
+  background-color: antiquewhite;
+  height: 90vh;
+  width: 45%;
+  margin: 10px;
+  overflow: scroll;
+  border-radius: 10px;
+}
+
+.lifeEvery_img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.lifeEvery_title {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.lifeEvery_title:hover {
+  animation: seek 3s infinite;
+}
+
+@keyframes seek {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.lifeEvery_para {
+  line-height: 23px;
+  text-indent: 30px;
+}

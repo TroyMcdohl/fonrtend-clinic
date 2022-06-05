@@ -1,0 +1,103 @@
+.healthy_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.healthy_card {
+  display: flex;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.75);
+}
+
+.healthy_left {
+  flex: 6;
+  width: 400px;
+  margin: 10px;
+}
+
+.healthy_left_title {
+  font-size: 25px;
+}
+
+.healthy_left_para {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.healthy_left_btns {
+}
+
+.healthy_left_btn {
+  width: 45%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(13, 190, 13);
+  color: white;
+  cursor: pointer;
+}
+
+.healthy_left_btn:hover {
+  opacity: 0.9;
+}
+
+.healthy_right {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin: 5px;
+}
+
+.healthy_right_img {
+  width: 100%;
+  height: 100%;
+
+  border-radius: 10px;
+}
+
+.healthy_right_des {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  font-weight: 300px;
+}
+
+.healthy_adver_container {
+  width: 90%;
+  height: 20vh;
+  background-color: green;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+.healthy_adver_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  font-size: 35px;
+  animation: hide 5s ease infinite;
+}
+
+@keyframes hide {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

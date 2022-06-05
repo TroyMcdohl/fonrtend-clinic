@@ -1,0 +1,38 @@
+.c_pros_container {
+  height: 100vh;
+  display: flex;
+}
+
+.c_pros_wrapper {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 2px 7px 28px 13px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 7px 28px 13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 7px 28px 13px rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  align-items: center;
+}
+
+.c_pros_card {
+  border-top: 2px solid black;
+  width: 350px;
+  height: 45%;
+  margin: 18px;
+}
+
+.c_pros_icon {
+  margin: 5px;
+}
+
+.c_pros_title {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.c_pros_des {
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
